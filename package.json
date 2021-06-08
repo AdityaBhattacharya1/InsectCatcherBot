@@ -1,0 +1,14 @@
+{
+  "name": "insectcatchertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Bhattacharya",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^10.0.0"
+  }
+}
