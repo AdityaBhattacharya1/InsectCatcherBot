@@ -17,11 +17,9 @@ git clone https://github.com/AdityaBhattacharya1/InsectCatcherBot.git
 npm install
 ```
 
-## ⚠ Warning for Usage
+## ⚠ Warning
 
-This bot involves an infinite loop (commented out by default. Do **not** uncomment the infinite loop unless you know what you are doing) and after some time, your browser will inevitably begin to slow down causing your system (depends on the type of browser and the system resources available) to start lagging.
-
-Use the bot at your own responsibility. The creator of the bot will not be responsible for any physical damage that may be incurred to your system while using this bot.
+This bot involves an infinite loop (commented out by default. Do **not** uncomment the infinite loop unless you know what you are doing) and after some time, your browser will inevitably begin to slow down causing your system to begin lagging.
 
 ## Usage
 
@@ -29,12 +27,12 @@ For hosting the bot, you have 3 options:
 
 -   use the [Serve](https://www.npmjs.com/package/serve) npm package
 ```sh
-# Using npx, temporarily install serve in the project directory
+# starts the game page on port 5000 of localhost
   npx serve
 ```
 
 -   run it locally on your own server (for example, using the [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension of VSCode). Make sure that you change the `goto` link in `bot.js`
--   Open the `index.html` file in your browser of choice and then in `bot.js` edit the `goto` link to the link of the file (eg: `file:///.../insectCatcherTest/index.html`)
+-   Open the `index.html` file in your browser of choice and then in `bot.js` edit the `goto` link to the location of the file (eg: `file:///.../insectCatcherTest/index.html`)
 
 ```sh
 node ./bot.js
